@@ -1,0 +1,13 @@
+AT
+
+AT+LEDMODE=1 //开灯
+
+AT+CGSN      //查询IMEI
+
+AT+CPIN?     //检查SIM卡状态
+
+AT+CSQ       //检查信号强度
+ 
+AT+CEREG?     //查询网络注册状态
+
+AT+NETSTATE?  //查询当前网络注册状态
